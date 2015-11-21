@@ -241,14 +241,14 @@ margin-top: -15px;
 }
 
 /*book cover on Buy Book page 
-width and height fixes line 12 of the /css/responsive.css file that messes the book picture up.*/
+width and height fixes line 12 of the /css/responsive.css file that messes the book picture up
 .wp-image-875 {
 	padding: 30px 30px 30px 30px;
 	width:379px !important;
 	height: 452px !important;
 }
 
-
+*/
 
 
 /*------------------------------------------------*/
