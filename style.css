@@ -121,7 +121,9 @@ p#slogan, #search-form {
 }
 
 #lwm_book {
-    width: 78%;
+    width: 50%;
+	margin: 0 auto;
+	padding-bottom: 10px;
 }
 
 
@@ -247,7 +249,7 @@ margin-top: -15px;
 	font-size: 20px;
 	color: #2b2b2b;
 	text-align:center;
-	padding-bottom: 0px;	
+	padding: 10px 0px;	
 	
 }
 
@@ -261,7 +263,11 @@ width and height fixes line 12 of the /css/responsive.css file that messes the b
 
 */
 
-
+.wp-image-875 {
+	padding: 30px 30px 30px 30px;
+	width:379px !important;
+	height: auto;
+}
 
 
 .wp-image-875 {
@@ -432,11 +438,11 @@ ul#top-menu a {font-size:14px !important;}
 #header {padding: 50px 55px 3px !important;}
 
 #lwm_book {
-    width: 80%;
+    width: 80% !important;
 }
 
 #lwm_book img {
-	width: 98%;
+	width: 75% !important;
 }
 
 
