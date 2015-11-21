@@ -250,6 +250,9 @@ width and height fixes line 12 of the /css/responsive.css file that messes the b
 
 */
 
+.wp-image-875 {
+	padding: 30px 30px 30px 30px;
+}
 
 /*------------------------------------------------*/
 /*-------------------[FOOTER]---------------------*/
