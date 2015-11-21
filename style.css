@@ -1,0 +1,450 @@
+/*
+Theme Name: Chameleon-Child
+Theme URI: http://www.axelbahnsen.com
+Version: 1.0 (Jan 25, 2013)
+Description: Child theme for REQUIRED Parent Theme called Chameleon by Elegant Themes See (parent theme REQUIRED ACTION.txt) when updating parent.
+Author: Bryan Cady
+Author URI: http://www.listentothewindmedia.com
+Template: Chameleon
+*/
+
+@import url("../Chameleon/style.css");
+
+
+/*********************************************
+ Below is custom CSS for axelbahnsen.com from Bryan
+ at Listen to the Wind Media (Jan 25, 2013)
+*********************************************/
+/*------------------------------------------------*/
+/*-----------------[BASIC STYLES]-----------------*/
+/*------------------------------------------------*/
+
+
+body {background: #262626 !important}
+
+a {color:#929292;}     
+
+
+p {
+	font-size:15px;
+	color: #2b2b2b;
+}
+
+
+/*------------------------------------------------*/
+/*---------------[MAIN LAYOUT INFO]---------------*/
+/*------------------------------------------------*/
+
+
+
+
+/* 3 content blurbs */
+h3.title  {
+	text-align: center !important;
+	color: #1d1d1d !important;
+
+}
+
+h3.title a  {
+	color: #1d1d1d !important;
+
+}
+
+
+.service img.item-image {
+			-webkit-box-shadow: 7px 7px 5px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    7px 7px 5px rgba(50, 50, 50, 0.75);
+	box-shadow:         7px 7px 5px rgba(50, 50, 50, 0.75);
+
+}
+.service .thumb {
+	border:none;
+}
+/*end of blurbs */
+
+/*------------------------------------------------*/
+/*--------------[FEATURED SLIDER]-----------------*/
+/*------------------------------------------------*/
+
+
+.featured-description {
+	display:none;
+}
+
+h2.featured-title, .description {
+	display:none !important;
+}
+
+.flex-direction-nav li .prev, .flex-direction-nav li .next  {
+display:none;
+}
+
+.flex-direction-nav li .flex-next, .flex-direction-nav li .flex-prev {
+	display: none;
+}
+
+/*slider on "Axel Originals page.  */
+.nivo-directionNav a {
+	top:200px !important;
+}
+
+/*------------------------------------------------*/
+/*---------------[HEADER AREA]------------------*/ 
+/*------------------------------------------------*/
+
+/*Gets rid of search box and tagline August 4, 2012   BC */
+p#slogan, #search-form {
+	display:none;
+}
+
+#logo {
+	margin-bottom: 27px !important;
+}
+
+#header {
+	padding-top:20px !important;
+}
+
+/*Header Logo image and Book Cover image   */
+
+#logo, .wp-image-875 {
+	-webkit-box-shadow: 7px 7px 5px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    7px 7px 5px rgba(50, 50, 50, 0.75);
+	box-shadow:         7px 7px 5px rgba(50, 50, 50, 0.75);
+	border-left: 1px solid #d9d9d9 !important;
+	border-top: 1px solid #d9d9d9 !important;
+}
+
+/*About Axel and "Buy the Book images*/
+.wp-image-868, .wp-image-1060, .wp-image-1086 {
+		-webkit-box-shadow: 7px 7px 5px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    7px 7px 5px rgba(50, 50, 50, 0.75);
+	box-shadow:         7px 7px 5px rgba(50, 50, 50, 0.75);
+	border-left: 1px solid #d9d9d9;
+	border-top: 1px solid #d9d9d9;
+}
+
+
+ul#top-menu ul {
+background: #e6e6e6 !important;
+width: 115px;
+}
+
+ul#top-menu {
+	padding-top: 38px !important;
+}
+
+ul#top-menu a {
+	font-size: 16px !important;
+}
+
+
+/*------------------------------------------------*/
+/*-------------------[PAGE STYLES]----------------*/
+/*------------------------------------------------*/
+/*fixes centering issue most seen on a few pages */
+
+*/
+.fullwidth #left-area {
+	padding-left:20px;
+}
+
+.page-id-954 .fullwidth #left-area {
+	padding-left:7px;
+}
+
+
+
+
+/*Gallery page styling */
+
+
+.page-id-771 .et_portfolio_more_icon {
+display: none !important;
+}
+
+.page-id-771 a.et_portfolio_zoom_icon.fancybox {
+	margin-left:-25px !important;
+}
+
+h2.et_pt_portfolio_title  {
+	text-align:center;
+}
+
+
+/*removes directory tree */
+#breadcrumbs {
+	display:none;
+}
+
+/*fixes contact form font in message area */
+				
+			
+
+form#et_contact_form {
+	width:60%;
+	float:left;
+}
+
+/*fixes font for contact form so it is uniform across all browsers */
+input#et_contact_subject.input, input#et_contact_email.input, input#et_contact_name.input, #et-contact p textarea {
+	font-family: 'Crimson Text', Arial, sans-serif ;
+	font-size:15px;
+}
+
+/*contact page image */
+.wp-image-914 {
+	margin: 40px 30px !important;
+
+			-webkit-box-shadow: 7px 7px 5px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    7px 7px 5px rgba(50, 50, 50, 0.75);
+	box-shadow:         7px 7px 5px rgba(50, 50, 50, 0.75);
+
+}
+
+/*pictorialism page image */
+.wp-image-1014 {
+			-webkit-box-shadow: 7px 7px 5px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    7px 7px 5px rgba(50, 50, 50, 0.75);
+	box-shadow:         7px 7px 5px rgba(50, 50, 50, 0.75);
+
+}
+
+
+
+
+
+	
+
+
+/*Book Page */
+#buy {
+margin-left: 330px;
+margin-top: -15px;
+
+}
+
+.page-id-235 h3 {
+	font-size: 30px;
+	color: #2b2b2b;
+	text-align:center;
+	padding-top: 10px;	
+	
+}
+
+.page-id-235 h4 {
+	font-size: 20px;
+	color: #2b2b2b;
+	text-align:center;
+	padding-bottom: 0px;	
+	
+}
+
+/*book cover on Buy Book page 
+width and height fixes line 12 of the /css/responsive.css file that messes the book picture up.*/
+.wp-image-875 {
+	padding: 30px 30px 30px 30px;
+	width:379px !important;
+	height: 452px !important;
+}
+
+
+
+
+/*------------------------------------------------*/
+/*-------------------[FOOTER]---------------------*/
+/*------------------------------------------------*/
+
+.footer-widget {
+	width:29%;
+	font-size: 13px;
+	color:#2b2b2b;
+}
+
+#axel {
+	float:left;
+	font-size: 12px;
+	color:#2b2b2b;
+	padding-left:20px !important;
+}
+
+/* "Designed by" link in the footer */
+
+#lwm p {
+	padding-right:20px !important;
+	font-size:12px;
+}
+
+h4.widgettitle {
+	font-size:18px !important;
+	text-align: center;
+}
+
+.wp-caption p.wp-caption-text {
+	font-size:14px;
+	color:#2b2b2b;
+}
+
+#footer-widgets {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+
+.footer-widget {
+	width:233px;
+	margin-left:48px;
+}
+
+/*------------------------------------------------*/
+/*-------------------[HOME-QUOTE]----------*/
+/*------------------------------------------------*/
+
+/*rids second quote line on home page*/
+.home #category-name p {
+	display:none !important;
+}
+
+
+/*********************************************
+ Fixes right margin on Gallery page after 
+ Elegant Theme Chameleon 3.1 was updated
+*********************************************/
+.page-id-771 #et_pt_portfolio_gallery {
+margin-left: -61px !important;
+margin-right: -61px !important;
+}
+
+/*********************************************
+ For slide show before responsive...I believe 
+*********************************************/
+
+
+#pb_slideshow_slider-1 .nivo-controlNav {
+bottom: -103px !important;
+}
+
+
+/*********************************************
+ For "Other Originals" Billboard in sidebar of posts
+*********************************************/
+
+#ithemes-billboard-3 img {
+	margin-bottom: 25px;
+	-webkit-box-shadow: 7px 7px 5px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    7px 7px 5px rgba(50, 50, 50, 0.75);
+	box-shadow:         7px 7px 5px rgba(50, 50, 50, 0.75);
+}
+
+/*********************************************
+ Axel's Originals page  
+*********************************************/
+.wp-image-1947 {
+	-webkit-box-shadow: 7px 7px 5px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    7px 7px 5px rgba(50, 50, 50, 0.75);
+	box-shadow:         7px 7px 5px rgba(50, 50, 50, 0.75);
+
+}
+
+
+/*********************************************
+Cart Button adjustment
+*********************************************/
+
+.Cart66ButtonPrimary {
+	font-family: 'Crimson Text' !important;
+	height: 30px !important;
+	font-size: 14px !important
+}
+
+.Cart66Price {
+	color: #1d1d1d;
+	font-size: 1.3em !important;
+}
+
+.origImg {
+	padding-top: 30px;
+}
+
+
+
+
+ul#top-menu ul {
+width: 200px;
+}
+
+
+/*********************************************
+ Individual page/post adjustments
+*********************************************/
+.wp-image-1777, .wp-image-1791, .wp-image-1797 {
+	margin-top: -10px;
+}
+
+
+
+/*********************************************
+Axel, Ansel and Seigfried image on About page	
+*********************************************/
+.wp-image-2190 {
+	width: 90% !important;
+	-webkit-box-shadow: 7px 7px 5px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    7px 7px 5px rgba(50, 50, 50, 0.75);
+	box-shadow:         7px 7px 5px rgba(50, 50, 50, 0.75);
+
+}
+
+
+
+
+/*------------------------------------------------*/
+/*-------------------[RESPONSIVE STYLES]----------*/
+/*------------------------------------------------*/
+
+@media only screen and ( min-width: 768px ) and ( max-width: 960px ) {
+#buy {margin-left: 240px !important;}
+ul#top-menu a {font-size:14px !important;}
+.footer-widget {width: 23% !important; margin-left: 33px !important;}
+#text-4 h4.widgettitle {margin-left: 10px !important;}
+#text-2 h4.widgettitle {margin-right: 25px !important;}
+#text-3 h4.widgettitle {margin-right: 5px !important;}
+}
+
+@media only screen and ( max-width: 767px ) {
+#buy {margin-left: 115px !important;}
+#header {padding: 50px 55px 3px !important;}
+}
+
+.nivoSlider img {
+    margin: 30px auto 40px !important;
+}
+
+
+
+/*
+
+#left-area img {
+	border: 1px solid #DADADA;
+border-bottom: 1px solid #B7B7B7;
+background: white;
+padding: 5px;
+-moz-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+-webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.8);
+margin-bottom: 7px;
+}
+
+.page-id-771 #left-area img {
+	border: 0px;
+border-bottom: 0px
+background:none;
+padding: 0px;
+-moz-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+-webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.0);
+margin-bottom: 0px;
+}
+
+img, video, .wp-caption { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; width: auto; max-width: 100%; height: auto !important; }
+
+*/
