@@ -115,6 +115,17 @@ p#slogan, #search-form {
 	border-top: 1px solid #d9d9d9 !important;
 }
 
+
+#lwm_book img {
+    width: 50%;
+}
+
+#lwm_book {
+    width: 78%;
+}
+
+
+
 /*About Axel and "Buy the Book images*/
 .wp-image-868, .wp-image-1060, .wp-image-1086 {
 		-webkit-box-shadow: 7px 7px 5px rgba(50, 50, 50, 0.75);
@@ -249,6 +260,9 @@ width and height fixes line 12 of the /css/responsive.css file that messes the b
 }
 
 */
+
+
+
 
 .wp-image-875 {
 	padding: 30px 30px 30px 30px;
@@ -416,11 +430,23 @@ ul#top-menu a {font-size:14px !important;}
 @media only screen and ( max-width: 767px ) {
 #buy {margin-left: 115px !important;}
 #header {padding: 50px 55px 3px !important;}
+
+#lwm_book {
+    width: 80%;
+}
+
+#lwm_book img {
+	width: 98%;
+}
+
+
+
 }
 
 .nivoSlider img {
     margin: 30px auto 40px !important;
 }
+
 
 
 
